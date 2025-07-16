@@ -395,7 +395,7 @@ xcodebuild -scheme ThunderTransfer -only-testing:ThunderTransferUITests test
 
 ## License
 
-This project is part of the SLC Help Desk utilities suite. For internal use only.
+This project is part of the SLC Help Desk utilities suite.
 
 ## Contributing
 
