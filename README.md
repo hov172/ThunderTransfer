@@ -1,3 +1,7 @@
+# Still in Beta:
+
+I was asked by a fellow MacAdmin Conference attendee the possibility of create an app that let you transfer files between machines using thunderbolt port. The App might still have some bugs so please share any feedback you may have. If folks this its interesting i'll try to keep working on it. 
+
 # ThunderTransfer - Professional macOS File Transfer Application
 
 A comprehensive macOS application that enables high-speed file transfers and synchronization between Mac devices connected via Thunderbolt cables. This professional-grade app leverages Thunderbolt bridge connections to ensure maximum transfer speeds with enterprise-level security and performance monitoring.
