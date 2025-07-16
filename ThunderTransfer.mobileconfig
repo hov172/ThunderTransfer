@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>Thunderbolt Bridge Transfer Configuration</string>
+            <key>PayloadIdentifier</key>
+            <string>com.company.thunderbolt.config</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>12345678-1234-1234-1234-123456789012</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadScope</key>
+            <string>System</string>
+            <key>PayloadDescription</key>
+            <string>Configuration for Thunderbolt Bridge Transfer application</string>
+            
+            <!-- Application-specific configuration -->
+            <key>ThunderboltBridgeTransfer</key>
+            <dict>
+                <!-- Security Settings -->
+                <key>SecuritySettings</key>
+                <dict>
+                    <key>encryptionEnabled</key>
+                    <true/>
+                    <key>encryptionRequired</key>
+                    <true/>
+                    <key>authenticationRequired</key>
+                    <true/>
+                    <key>certificatePinningEnabled</key>
+                    <true/>
+                    <key>minimumEncryptionStrength</key>
+                    <string>AES256</string>
+                    <key>allowSelfSignedCertificates</key>
+                    <false/>
+                </dict>
+                
+                <!-- Performance Settings -->
+                <key>PerformanceSettings</key>
+                <dict>
+                    <key>maxBandwidthMBps</key>
+                    <integer>500</integer>
+                    <key>defaultQoSProfile</key>
+                    <string>Balanced</string>
+                    <key>maxConcurrentTransfers</key>
+                    <integer>2</integer>
+                    <key>autoStartReceiving</key>
+                    <true/>
+                    <key>allowBandwidthModification</key>
+                    <false/>
+                </dict>
+                
+                <!-- Compliance Settings -->
+                <key>ComplianceSettings</key>
+                <dict>
+                    <key>transferLoggingRequired</key>
+                    <true/>
+                    <key>auditLogLevel</key>
+                    <string>Detailed</string>
+                    <key>retainTransferHistoryDays</key>
+                    <integer>90</integer>
+                    <key>allowPersonalSync</key>
+                    <false/>
+                    <key>requireBusinessJustification</key>
+                    <true/>
+                </dict>
+                
+                <!-- UI Restrictions -->
+                <key>UIRestrictions</key>
+                <dict>
+                    <key>allowDebugMode</key>
+                    <false/>
+                    <key>allowTestMode</key>
+                    <false/>
+                    <key>hideAdvancedSettings</key>
+                    <true/>
+                    <key>disableSettingsModification</key>
+                    <true/>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    
+    <!-- Payload Information -->
+    <key>PayloadDisplayName</key>
+    <string>Thunderbolt Bridge Transfer Enterprise Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.company.thunderbolt.enterprise.config</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>87654321-4321-4321-4321-210987654321</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadOrganization</key>
+    <string>Your Organization</string>
+    <key>PayloadDescription</key>
+    <string>Enterprise configuration profile for Thunderbolt Bridge Transfer application. This profile configures security policies, performance settings, and compliance requirements.</string>
+</dict>
+</plist>
